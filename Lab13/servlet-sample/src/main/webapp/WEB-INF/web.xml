@@ -21,4 +21,28 @@
 		<servlet-name>html-page</servlet-name>
 		<url-pattern>/page</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>redirect-servlet</servlet-name>
+		<servlet-class>edu.java.web.PageRedirect</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>redirect-servlet</servlet-name>
+		<url-pattern>/redirect</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>hit-counter</servlet-name>
+		<servlet-class>edu.java.web.HitCounter</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hit-counter</servlet-name>
+		<url-pattern>/count</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>file-upload</servlet-name>
+		<servlet-class>edu.java.web.UploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>file-upload</servlet-name>
+		<url-pattern>/upload</url-pattern>
+	</servlet-mapping>
 </web-app>
