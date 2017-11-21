@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-4.2.xsd">   
+   <context:annotation-config/>
+
+   
+   	<!-- <context:constructor-arg type="int" value="5"></context:constructor-arg> -->
+   	<bean id="helloJavaClazz" class="org.javaClass.springexample.HelloClazz" >
+   <property name="message" value="Hello Sub Bean instance is Inner Bean"></property>
+   
+   <property name="clazzes">
+   			<list>
+   				<ref bean="jee01"></ref>
+   				<null></null>
+   				<null></null>
+   			</list>
+   		</property>
+   </bean>
+   
+   
+   <bean id="helloJavaClazz2" class="org.javaClass.springexample.HelloClazz">
+   		<!-- <context:constructor-arg ref="helloJavaClazz"></context:constructor-arg> -->
+   		<property name="message" value="Hello bean Inheritance!"></property>
+   		
+   </bean>
+   <bean id="helloWorld" class="org.javaClass.springexample.HelloWorld">
+   	<property name="message" value="Hello Annotation based Configuration!"></property>
+   <!-- <property name="clazz">
+   		<bean id="helloJavaClazz" class="org.javaClass.springexample.HelloClazz" >
+   		<context:property name="message" value="Hello Sub Bean instance is Inner Bean"></context:property>
+   		</bean>
+   		
+   </property> -->
+   <!-- 	<context:constructor-arg type="java.lang.String" value="Thuan"></context:constructor-arg>
+   	<context:constructor-arg ref="helloJavaClazz"></context:constructor-arg> -->
+   </bean>
+  <!--  <bean id="clazz" class="org.javaClass.springexample.HelloClazz">
+   		<context:property name="message" value="Hello Sub Bean instance is Inner Bean"></context:property>
+   </bean>
+    <bean id="clazz1" class="org.javaClass.springexample.HelloClazz">
+   		<context:property name="message" value="Hello Sub Bean instance is Inner Bean 2"></context:property>
+   </bean> -->
+	<bean class="org.javaClass.springexample.InitSampleBean"></bean>
+	<bean id="sampleTemplate" abstract="true">
+		<property name="message" value="Template say Hello"></property>
+	</bean>
+	<bean id="jee01" class="org.javaClass.springexample.JavaClazz">
+		<property name="students">
+			<map>
+				<entry key="Nguyen Van A" value="23"></entry>
+				<entry key="Tran Thi B" value="28"></entry>
+				<entry key="Le Thi C" value="27"></entry>
+				<entry key="Hoang Van D" value="34"></entry>
+			</map>
+		</property>
+	</bean>
+
+</beans>
