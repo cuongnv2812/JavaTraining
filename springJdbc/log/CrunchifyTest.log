@@ -1,0 +1,126 @@
+2017-11-16 10:32:49,081 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 10:32:49 ICT 2017]; root of context hierarchy
+2017-11-16 10:32:49,120 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 10:32:49,375 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 10:32:49,377 [main] WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [edu.java.spring.jdbc.StudentJdbcDAO] for bean with name 'studentJdbcDAO' defined in class path resource [beans.xml]; nested exception is java.lang.ClassNotFoundException: edu.java.spring.jdbc.StudentJdbcDAO
+2017-11-16 10:33:34,222 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 10:33:34 ICT 2017]; root of context hierarchy
+2017-11-16 10:33:34,262 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 10:33:34,482 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 10:33:34,482 [main] WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Error loading class [edu.java.spring.SpringJdbc.StudentJdbcDAO] for bean with name 'studentJdbcDAO' defined in class path resource [beans.xml]: problem with class file or dependent class; nested exception is java.lang.NoClassDefFoundError: edu/java/spring/SpringJdbc/StudentJdbcDAO (wrong name: edu/java/spring/springJdbc/StudentJdbcDAO)
+2017-11-16 10:35:11,619 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 10:35:11 ICT 2017]; root of context hierarchy
+2017-11-16 10:35:11,659 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 10:35:11,879 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 10:35:11,879 [main] WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentJdbcDAO' defined in class path resource [beans.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'dataSource' of bean class [edu.java.spring.springJdbc.StudentJdbcDAO]: Bean property 'dataSource' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2017-11-16 10:41:16,702 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 10:41:16 ICT 2017]; root of context hierarchy
+2017-11-16 10:41:16,742 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 10:41:16,962 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 10:41:16,962 [main] WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentJdbcDAO' defined in class path resource [beans.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'dataSource' of bean class [edu.java.spring.springJdbc.StudentJdbcDAO]: Bean property 'dataSource' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2017-11-16 10:41:40,932 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 10:41:40 ICT 2017]; root of context hierarchy
+2017-11-16 10:41:40,972 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 10:41:41,212 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 10:41:41,222 [main] WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentJdbcDAO' defined in class path resource [beans.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'dataSource' of bean class [edu.java.spring.springJdbc.StudentJdbcDAO]: Bean property 'dataSource' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2017-11-16 10:44:30,108 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 10:44:30 ICT 2017]; root of context hierarchy
+2017-11-16 10:44:30,148 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 10:44:30,378 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 10:44:31,368 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@319bc845
+2017-11-16 12:39:30,575 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 12:39:30 ICT 2017]; root of context hierarchy
+2017-11-16 12:39:30,615 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 12:39:30,875 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 12:39:30,885 [main] WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentJdbcDAO' defined in class path resource [beans.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'insertQuery' of bean class [edu.java.spring.springJdbc.StudentJdbcDAO]: Bean property 'insertQuery' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2017-11-16 12:40:23,196 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 12:40:23 ICT 2017]; root of context hierarchy
+2017-11-16 12:40:23,246 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 12:40:23,526 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 12:40:23,966 [main] INFO  StudentJdbcDAO:30 - Table STUDENT already exists !
+2017-11-16 12:40:24,012 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-11-16 12:40:24,072 [main] INFO  SQLErrorCodesFactory:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-11-16 12:40:24,072 [main] WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentJdbcDAO' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.springframework.dao.DataIntegrityViolationException: StatementCallback; SQL [CREATE TABLE STUDENT(ID BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY(START WITH 1,INCREMENT BY 1),name VARCHAR(1000),age INTEGER)Table/View 'STUDENT' already exists in Schema 'APP'.; nested exception is java.sql.SQLException: Table/View 'STUDENT' already exists in Schema 'APP'.
+2017-11-16 12:41:15,411 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 12:41:15 ICT 2017]; root of context hierarchy
+2017-11-16 12:41:15,451 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 12:41:15,711 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 12:41:15,731 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 12:41:16,051 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-11-16 12:41:16,112 [main] INFO  SQLErrorCodesFactory:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-11-16 12:42:11,866 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 12:42:11 ICT 2017]; root of context hierarchy
+2017-11-16 12:42:11,906 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 12:42:12,156 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 12:42:12,166 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 12:42:12,476 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-11-16 12:42:12,530 [main] INFO  SQLErrorCodesFactory:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-11-16 12:43:01,183 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 12:43:01 ICT 2017]; root of context hierarchy
+2017-11-16 12:43:01,223 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 12:43:01,483 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 12:43:01,853 [main] INFO  StudentJdbcDAO:30 - Table STUDENT already exists !
+2017-11-16 12:43:01,914 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-11-16 12:43:01,954 [main] INFO  SQLErrorCodesFactory:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-11-16 12:43:01,964 [main] WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentJdbcDAO' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.springframework.dao.DataIntegrityViolationException: StatementCallback; SQL [CREATE TABLE STUDENT(ID BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY(START WITH 1,INCREMENT BY 1),name VARCHAR(1000),age INTEGER)Table/View 'STUDENT' already exists in Schema 'APP'.; nested exception is java.sql.SQLException: Table/View 'STUDENT' already exists in Schema 'APP'.
+2017-11-16 12:43:37,933 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 12:43:37 ICT 2017]; root of context hierarchy
+2017-11-16 12:43:37,973 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 12:43:38,243 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 12:43:38,253 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 12:43:38,593 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-11-16 12:43:38,654 [main] INFO  SQLErrorCodesFactory:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-11-16 12:45:27,201 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 12:45:27 ICT 2017]; root of context hierarchy
+2017-11-16 12:45:27,241 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 12:45:27,491 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 12:45:27,511 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 12:45:27,801 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-11-16 12:45:27,852 [main] INFO  SQLErrorCodesFactory:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-11-16 12:45:43,165 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 12:45:43 ICT 2017]; root of context hierarchy
+2017-11-16 12:45:43,215 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 12:45:43,465 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 12:45:43,475 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 12:45:43,895 [main] INFO  StudentJdbcDAO:40 - Create record name: Nguyen Van Bage: 24
+2017-11-16 12:46:16,345 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 12:46:16 ICT 2017]; root of context hierarchy
+2017-11-16 12:46:16,385 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 12:46:16,635 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 12:46:16,645 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 12:46:17,025 [main] INFO  StudentJdbcDAO:40 - Create record name: Nguyen Van C age: 25
+2017-11-16 12:56:37,035 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 12:56:37 ICT 2017]; root of context hierarchy
+2017-11-16 12:56:37,075 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 12:56:37,325 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 12:56:37,346 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 12:56:37,766 [main] INFO  App:16 - Total student is: 2
+2017-11-16 13:06:09,892 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 13:06:09 ICT 2017]; root of context hierarchy
+2017-11-16 13:06:09,932 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 13:06:10,182 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 13:06:10,202 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 13:06:10,582 [main] INFO  App:16 - Total student is: 2
+2017-11-16 14:47:36,158 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 14:47:36 ICT 2017]; root of context hierarchy
+2017-11-16 14:47:36,208 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 14:47:36,458 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 14:47:36,478 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 14:47:36,859 [main] INFO  App:16 - Total student is: 2
+2017-11-16 15:09:08,111 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 15:09:08 ICT 2017]; root of context hierarchy
+2017-11-16 15:09:08,161 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 15:09:08,411 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 15:09:08,431 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 15:09:08,821 [main] INFO  App:16 - Total student is: 2
+2017-11-16 15:09:43,868 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 15:09:43 ICT 2017]; root of context hierarchy
+2017-11-16 15:09:43,918 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 15:09:44,168 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 15:09:44,178 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 15:09:44,558 [main] INFO  App:16 - Total student is: 2
+2017-11-16 15:09:44,579 [main] INFO  App:17 - 1 Nguyen Van B 24
+2017-11-16 15:54:35,503 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 15:54:35 ICT 2017]; root of context hierarchy
+2017-11-16 15:54:35,553 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 15:54:35,835 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 15:54:35,845 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 15:54:36,205 [main] INFO  App:16 - Total student is: 2
+2017-11-16 15:54:36,256 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-11-16 15:54:36,296 [main] INFO  SQLErrorCodesFactory:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-11-16 15:55:54,549 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Thu Nov 16 15:55:54 ICT 2017]; root of context hierarchy
+2017-11-16 15:55:54,589 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-16 15:55:54,829 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-16 15:55:54,839 [main] INFO  App:14 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-16 15:55:55,199 [main] INFO  App:16 - Total student is: 2
+2017-11-16 15:55:55,250 [main] INFO  StudentJdbcDAO:83 - Update name Nguyen Van B Age 30
+2017-11-16 15:55:55,260 [main] INFO  App:19 - 1 Nguyen Van B 30
+2017-11-17 09:35:05,555 [main] INFO  ClassPathXmlApplicationContext:589 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6366ebe0: startup date [Fri Nov 17 09:35:05 ICT 2017]; root of context hierarchy
+2017-11-17 09:35:05,618 [main] INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-17 09:35:05,994 [main] INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.apache.derby.jdbc.EmbeddedDriver
+2017-11-17 09:35:06,016 [main] INFO  App:17 - create Beanedu.java.spring.springJdbc.StudentJdbcDAO@d5b810e
+2017-11-17 09:35:06,428 [main] INFO  App:19 - Total student is: 2
+2017-11-17 09:35:06,476 [main] INFO  StudentJdbcDAO:84 - Update name Nguyen Van B Age 30
+2017-11-17 09:35:06,484 [main] INFO  App:22 - 1 Nguyen Van B 30
+2017-11-17 09:35:06,511 [main] INFO  App:28 - Add record 0 :success
+2017-11-17 09:35:06,511 [main] INFO  App:28 - Add record 1 :success
+2017-11-17 09:35:06,513 [main] INFO  App:30 - Total students is 4
