@@ -3,4 +3,5 @@ steps:
   entrypoint: 'bash'
   args:
   - '-c'
-  - | echo "123123"
+  - |
+    echo "123123"
