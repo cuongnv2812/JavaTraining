@@ -64,6 +64,6 @@ tabula==1.0.5
 tabula-py==1.4.1
 update==0.0.1
 uritemplate==3.0.0
-urllib3==1.25.3
+urllib3==1.25.8
 Wand==0.5.7
 wincertstore==0.2
